@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="PonyFood"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#CE4747"
+        android:layout_marginBottom="40dp"
+        />
+
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="50dp"
+        android:text="Registrate"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/editUsuario"
+        android:hint="Ingrese el usuario"
+        android:autofillHints="username"
+        android:inputType="text"
+        android:ems="15"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:hint="Ingrese el nombre"
+        android:autofillHints="username"
+        android:inputType="textPersonName"
+        android:ems="15"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:hint="Ingrese la contraseña"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editPassword2"
+        android:hint="Repita la contraseña"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:hint="Ingrese el teléfono"
+        android:autofillHints="phone"
+        android:inputType="phone"
+        android:ems="15"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="Ingrese el correo"
+        android:autofillHints="email"
+        android:inputType="textEmailAddress"
+        android:ems="15"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editEmail" />
+
+    <Spinner
+        android:id="@+id/sucursal"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:spinnerMode="dropdown" />
+
+
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#CE4747"
+        android:text="Registrar" />
+
+
+</LinearLayout>

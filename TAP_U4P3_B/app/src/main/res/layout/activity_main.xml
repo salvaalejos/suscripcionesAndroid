@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="378dp"
+        android:layout_height="235dp"
+        app:srcCompat="@drawable/ponyfood" />
+
+    <EditText
+        android:id="@+id/editUsr"
+        android:hint="Ingrese su usuario"
+        android:autofillHints="username"
+        android:inputType="text"
+        android:ems="15"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/editPass"
+        android:hint="Ingrese su contraseña"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:ems="15"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="Acceder" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#CE4747"
+        android:text="Registrar" />
+
+</LinearLayout>
